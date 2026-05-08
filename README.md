@@ -23,7 +23,7 @@ A clean, component-based [Typst](https://typst.app) resume template with Font Aw
 
 ### Example
 
-See the tempalte resume [here](/resume.pdf).
+See the template resume [here](/resume.pdf).
 
 ### Prerequisites
 
