@@ -27,8 +27,8 @@
 #let muted   = rgb("#5D646F")
 
 // Document spacing
-#let paragraph-spacing = 0.5em
-#let line-spacing = 1em           // Default is 1em
+#let line-spacing = 0.5em
+#let paragraph-spacing = 1em           // Default is 1em
 #set list(indent: 1em)            // Sets indent on bullets
 
 
@@ -45,7 +45,7 @@
 #set text(font: "Spectral", size: 9.5pt, fill: body)
 
 // Document spacing
-#set par(leading: paragraph-spacing, spacing: line-spacing)
+#set par(leading: line-spacing, spacing: paragraph-spacing)
 
 // ── Document styles ──────────────────────────
 // #show link: it => text(it, fill: accent)
