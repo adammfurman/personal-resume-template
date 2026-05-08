@@ -33,7 +33,7 @@
 
 
 // ── Document metadata ──────────────────────────
-#set document(author: name, title: [#context document.author.first()'s Resume])
+#set document(author: name, title: [#name's Resume])
 
 // ── Page & font setup ──────────────────────────
 #set page(
