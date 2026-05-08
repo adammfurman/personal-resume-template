@@ -1,9 +1,9 @@
 # 📄 Adam's Resume Template
 
-A clean, component-based [Typst](https://typst.app) resume template with Font Awesome icons and a customizable accent color palette.
-
 ![Typst](https://img.shields.io/badge/Typst-0.14-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-green)
+
+A clean, component-based [Typst](https://typst.app) resume template with Font Awesome icons and a customizable accent color palette.
 
 ![preview](preview.png)
 
