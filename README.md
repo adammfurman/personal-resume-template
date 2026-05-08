@@ -2,8 +2,8 @@
 
 A clean, component-based [Typst](https://typst.app) resume template with Font Awesome icons and a customizable accent color palette.
 
-![Typst](https://img.shields.io/badge/Typst-0.13-blue)
-![License](https://img.shields.io/badge/license-GPLv3-blue)
+![Typst](https://img.shields.io/badge/Typst-0.14-blue)
+![License](https://img.shields.io/badge/license-GPLv3-green)
 
 ![preview](preview.png)
 
@@ -15,17 +15,23 @@ A clean, component-based [Typst](https://typst.app) resume template with Font Aw
 - **Configurable variables** — name, links, and colors declared once at the top
 - **Reusable components** — `#section`, `#contact-link`, `#project-link`, `#muted-text`
 - **Font Awesome icons** via [`@preview/fontawesome:0.6.0`](https://typst.app/universe/package/fontawesome)
-- **US Letter** format with sensible 0.5in margins
+- **US Letter** format with 0.5in margins
 
 ---
 
 ## Getting Started
+
+### Example
+
+See the tempalte resume [here](/resume.pdf).
 
 ### Prerequisites
 
 Install [Typst](https://github.com/typst/typst#installation), or use the [Typst web app](https://typst.app).
 
 ### Local
+
+Make sure to download and install Font Awesome font (and Spectral if you want to use my same font) to your system fonts.
 
 ```sh
 git clone https://github.com/adam-m-furman/personal-resume-template
@@ -35,8 +41,7 @@ typst compile resume.typ
 
 ### Typst web app
 
-Upload `resume.typ` to a new project — it compiles automatically in the browser.
-Ensure to include Font Awesome folder.
+Upload `resume.typ` and the Font Awesome `otfs` folder to a new project.
 
 ---
 
