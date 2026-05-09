@@ -74,10 +74,12 @@
 
 // Project links
 #let project-link(label, url, icon: none) = [
-  #link(url, text(weight: "bold", label))
-  #if icon != none {
-    fa-icon(icon, size: 0.75em)
-  }
+  #link(url)[
+    #text(weight: "bold", label)
+    #if icon != none {
+      fa-icon(icon, size: 0.75em)
+    }
+  ]
 ]
 
 // Icon links
