@@ -72,6 +72,9 @@
   link(url, label)
 }]
 
+// Phone number formatting
+#let phone-digits = phone.replace(regex("[^\d+]"), "")
+
 // Project links
 #let project-link(label, url, icon: none) = [
   #link(url)[
@@ -103,7 +106,7 @@
     #text(size: 10.5pt, fill: muted)[#job-titles.join([#h(0.25em) • #h(0.25em)])]
     #linebreak()
     #(
-      contact-link(phone, "tel:"+phone, icon: "phone"),
+      contact-link(phone, "tel:"+phone-digits, icon: "phone"),
       contact-link(location, "https://maps.apple.com/?q="+location, icon: "location-dot"),
       contact-link(email, "mailto:" + email, icon: "envelope"),
       contact-link(website, "https://" + website, icon: "compass"),
